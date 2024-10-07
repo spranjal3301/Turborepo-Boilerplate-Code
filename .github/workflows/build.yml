@@ -15,7 +15,8 @@ jobs:
         with:
           node-version: '20'
       
-      - name: npm install yarn -g
+      - name: Install yarn
+         run: npm install yarn -g
       
       - name: Install Dependencies
         run: yarn install
