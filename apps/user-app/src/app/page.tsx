@@ -4,6 +4,9 @@ export default function Page(): JSX.Element {
   const balance = useBalance();
 
   
+
+
+  
   return <div>
     hi there {balance}
   </div>
